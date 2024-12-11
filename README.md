@@ -3,18 +3,16 @@ A small-scale exploratory research to compare the performances of various monocu
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Dataset](#dataset)
-3. [Quantitative Results](#quantitative-results)
-4. [Qualitative Results](#qualitative-results)
-5. [General Observations](#general-observations)
+2. [Quantitative Results](#quantitative-results)
+3. [General Observations](#general-observations)
 
 ## Introduction
 This project explores the performances of the following monocular depth estimation algorithms in comparison with the Middlebury stereo depth maps.
-- Depth Anything V2
-- Marigold
-- UniDepthV2
-- Depth Pro
-- Lotus
+- [Depth Anything V2](https://github.com/DepthAnything/Depth-Anything-V2)
+- [Marigold](https://github.com/prs-eth/Marigold)
+- [UniDepthV2](https://github.com/lpiccinelli-eth/UniDepth)
+- [Depth Pro](https://github.com/apple/ml-depth-pro)
+- [Lotus](https://github.com/EnVision-Research/Lotus)
 
 For the following four images, depth estimations accuracies have been computed by the following formulation utilizing Mean Square Error: 
 
@@ -33,4 +31,6 @@ def normalize_image(image_array):
 np.min(image_array)) 
 ```
 
-Following 4 images from the Middlebury dataset have been used for the experiment:
+The images used can be found in [dataset](dataset/) folder. The qualitative results can be found in [results](results/) folder.
+
+## Quantitative Results
