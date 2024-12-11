@@ -34,3 +34,12 @@ np.min(image_array))
 The images used can be found in [dataset](dataset/) folder. The qualitative results can be found in [results](results/) folder.
 
 ## Quantitative Results
+### Results for baby.png
+
+| Algorithm         | RAW Image MSE | Normalized Image MSE |
+|:-----------------:|:-------------:|:--------------------:|
+| Depth Anything V2 | 4533.27       | 0.090                |
+| Marigold          | 6613.62       | 0.070                |
+| UniDepthV2        | 418.02        | 0.075                |
+| Depth Pro         | 3932.21       | 0.090                |
+| Lotus             | 6201.44       | 0.098                |
